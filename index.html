@@ -1,8 +1,61 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <h1>Hello World</h1>
-        <p>Thanks for checking out my webpage. I'm currently working on making it look cool so bare with me. Here is a picture of me for now. <br> Cheers, <br> Ben </p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Define the header styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            position: fixed; /* Fix the header at the top */
+            width: 100%; /* Make the header full-width */
+            top: 0; /* Position it at the top */
+            z-index: 100; /* Ensure it appears above other content */
+        }
+
+        /* Style the navigation links */
+        nav {
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 20px;
+        }
+
+        /* Add some content to demonstrate scrolling */
+        .content {
+            height: 1500px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Content -->
+    <div class="content">
+        <h1>Welcome to My Website</h1>
+        <p>I'm currently working on making it look cool so bare with me. Here is a picture of me for now. <br> Cheers, <br> Ben </p>
         <img src = "ben headshot.png" alt="Me a.k.a. Ben Crowley">
     </body>
+    </div>
+</body>
 </html>
